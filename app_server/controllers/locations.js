@@ -8,5 +8,5 @@ module.exports.locationInfo = function(req, res, next) {
 };
 /* GET 'addReview' page */
 module.exports.addReview = function(req, res, next) {
-  res.render('index', { title: 'Add Review' });
+  res.render('location-review', { title: 'Add Review' });
 };
