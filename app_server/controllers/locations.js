@@ -1,7 +1,7 @@
 /* GET 'homelist' page */
 module.exports.homelist = function(req, res, next) {
   res.render('locations-list', { 
-    title: 'Loc8r - find a place to work with wifi',
+    title: 'Loc8r - find a place to work with wifi!!',
     pageHeader: {
       title: 'Loc8r',
       strapline: 'Find places to work with wifi near you!!'
